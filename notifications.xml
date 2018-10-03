@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="Browser Connection" displayType="STICKY_BALLOON" />
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>

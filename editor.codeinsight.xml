@@ -1,0 +1,9 @@
+<application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_FILE_HEADER" value="false" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="PARAMETER_INFO_DELAY" value="200" />
+    <option name="JAVADOC_INFO_DELAY" value="0" />
+  </component>
+</application>

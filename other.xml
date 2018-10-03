@@ -1,0 +1,67 @@
+<application>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v9.2.1/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.11.2/bin/node">
+      <version-cache version="8.11.2" last-modified="1526411243000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/8.1.1/bin/node">
+      <version-cache version="8.1.1" last-modified="1511751464000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v7.10.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v7.2.1/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.2.0/bin/node">
+      <version-cache version="7.2.0" last-modified="1479855159000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.1.0/bin/node">
+      <version-cache version="7.1.0" last-modified="1478631212000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.0/bin/node">
+      <version-cache version="4.4.0" last-modified="1457490456000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.2.1/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v4.0.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v0.12.4/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/v0.10.38/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/v0.10.33/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl">
+    <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <ignored-resource url="http://exslt.org/dates-and-times" />
+    <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
+    <ignored-resource url="http://exslt.org/math" />
+    <ignored-resource url="http://exslt.org/dynamic" />
+    <ignored-resource url="http://exslt.org/common" />
+    <ignored-resource url="http://exslt.org/strings" />
+    <ignored-resource url="http://exslt.org/sets" />
+    <ignored-resource url="http://www.w3.org/2000/svg" />
+  </component>
+</application>

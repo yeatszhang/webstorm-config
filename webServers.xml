@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f2dab533-91d6-4eb1-9503-aae87fa3ebc7" name="10.16.131.23" url="http://10.16.131.23/">
+        <fileTransfer host="10.16.131.23" port="22" rootFolder="/opt/zhangyichi/vast-ti" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ac3e3418-0bc4-44f0-aa7e-99e0d2ddb342" name="101.199.126.121" url="http://101.199.126.121/">
+        <fileTransfer host="101.199.126.121" port="22" rootFolder="/data/liushaojie/vast-ti" accessType="SFTP" username="zhangyichi" password="df93df98df9adf9cdf9adf9edfeadff3dfcfdfcbdfdedfd9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

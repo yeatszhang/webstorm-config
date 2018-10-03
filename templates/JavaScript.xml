@@ -1,0 +1,76 @@
+<templateSet group="JavaScript">
+  <template name="jshi" value="/* jshint ignore:start */&#10;$contend$&#10;/* jshint ignore:end */" description="jshint ignore part" toReformat="true" toShortenFQNames="true">
+    <variable name="contend" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rcdm" value="componentDidMount() {&#10;  $code$&#10;}" description="React.componentDidMount" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rst" value="this.setState({&#10;  $name$: $value$&#10;});" description="react setState" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="import React, { PropTypes } from 'react';&#10;&#10;class $className$ extends React.Component {&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$code$&lt;/div&gt;&#10;    );&#10;  }&#10;} &#10;$className$.propTypes = {&#10;  key: PropTypes.string&#10;};&#10;$className$.defaultProps = {&#10;  key: 'value'&#10;};&#10;&#10;export default $className$;" description="React.createClass" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="rcwrp" value="componentWillReceiveProps(nextProps) {&#10;  this.setState({&#10;    $key$: $value$&#10;  });&#10;}" description="React.componentWillReceiveProps" toReformat="false" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="rcwm" value="componentWillMount() {&#10;  $code$&#10;}" description="React.componentWillMount" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rcwu" value="componentWillUnmount() {&#10;  $code$&#10;}" description="React.componentWillUnmount" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rgdp" value="getDefaultProps: function(){&#10;&#10;}," description="React.getDefaultProps" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="con" value="constructor() {&#10;  super(...arguments);&#10;  $code$&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iter" value="for each (let $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for each..in) - JavaScript 1.6+" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="itar" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  const $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
